@@ -8,6 +8,7 @@ header {
   align-items: center;
   background-color: rgb(0, 244, 146);
   position: fixed;
+  z-index: 100;
 }
 
 header img {

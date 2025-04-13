@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import { useNavigate } from "react-router-dom";
-
+import Footer from "./components/Fotter";
 import "./App.css";
 
 export default function Home() {
@@ -83,7 +83,7 @@ export default function Home() {
               onClick={() => navigate("/side")}
             >
               <h3>🎨 More Tools</h3>
-              <p>Cement, tiles, marble, paint and ceiling calculations</p>
+              <p>Cement, tiles, marble and paint calculations</p>
             </div>
           </div>
 
@@ -96,6 +96,12 @@ export default function Home() {
             Start your construction project with confidence using our precise
             calculation tools!
           </p>
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <Footer />
           <br />
           <br />
           <br />

@@ -3,12 +3,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import Home from "./Home";
 import Sidbar from "./components/Sidbar";
 import BricksCalculation from "./tools/BricksCalculation";
-import CeilingCalculation from "./tools/CeilingCalculation";
+
 import CementCalculation from "./tools/cementPlasterCalculation";
 import MarbleCalculation from "./tools/MarbleCalculation";
 import PaintCalculation from "./tools/PaintCalculation";
 import SlabCalculation from "./tools/SlabCalculation";
 import TileCalculation from "./tools/TileCalculation";
+import ContactForm from "./other/Feedback";
 function App() {
   const location = useLocation();
 
@@ -22,7 +23,7 @@ function App() {
         <Route path="/tile" element={<TileCalculation />} />
         <Route path="/marble" element={<MarbleCalculation />} />
         <Route path="/paint" element={<PaintCalculation />} />
-        <Route path="/c" element={<CeilingCalculation />} />
+        <Route path="/contact" element={<ContactForm />} />
 
         <Route
           path="/side"

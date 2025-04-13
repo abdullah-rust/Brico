@@ -38,10 +38,11 @@ export default function Sidbar() {
           {" "}
           Paint Calculation
         </Link>
-        <Link className="link" to="/c" replace={true}>
+
+        <button onClick={() => navigate("/contact", { replace: true })}>
           {" "}
-          Ceiling Calculation
-        </Link>
+          feedback please{" "}
+        </button>
       </ul>
     </div>
   );

@@ -34,7 +34,7 @@ export default function BricksCalculation() {
       <Header />
 
       <div className="calculator-container">
-        <h1 className="name">Bricks Calculator</h1>
+        <h1 className="name">Bricks Calculator 🧱</h1>
 
         <h2>Wall Length (ft)</h2>
         <input

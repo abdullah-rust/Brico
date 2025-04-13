@@ -1,12 +1,17 @@
-import { Link } from "react-router-dom";
+import { Link, replace } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import "./sidebar.css";
 export default function Sidbar() {
+  let navigate = useNavigate();
   return (
     <div className="sidebar">
-      <Link to="/" className="cross-btn" replace={true}>
+      <div
+        className="cross-btn"
+        onClick={() => navigate(-1, { replace: true })}
+      >
         ❌
-      </Link>
+      </div>
       <br />
       <br />
       <br />

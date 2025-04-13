@@ -54,6 +54,7 @@ export default function Home() {
                 borderRadius: "10px",
                 width: "250px",
               }}
+              onClick={() => navigate("/bricks")}
             >
               <h3>🧱 Bricks Calculator</h3>
               <p>Calculate exact brick requirements for your walls</p>
@@ -66,6 +67,7 @@ export default function Home() {
                 borderRadius: "10px",
                 width: "250px",
               }}
+              onClick={() => navigate("/slab")}
             >
               <h3>🏗️ Slab Estimate</h3>
               <p>Get precise slab measurements and material estimates</p>

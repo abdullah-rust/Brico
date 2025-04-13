@@ -1,5 +1,7 @@
 import Header from "../components/Header";
 import { useState } from "react";
+import "./css files/slab.css";
+import manuIcon from "../assets/slab.png";
 
 export default function SlabCalculation() {
   const [length, setLength] = useState(0);
@@ -37,7 +39,9 @@ export default function SlabCalculation() {
     <>
       <Header />
       <div className="container">
-        <h1 className="text-xl font-bold mb-4">Slab Material Calculator</h1>
+        <h1 className="text-xl font-bold mb-4">
+          Slab Material <img src={manuIcon} alt="icon" />{" "}
+        </h1>
 
         <div className="input">
           <h2>Length(feet)</h2>

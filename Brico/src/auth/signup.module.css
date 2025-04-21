@@ -1,0 +1,78 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #023047, #219ebc);
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px 24px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.8s ease;
+}
+
+.card h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #023047;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.card input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #219ebc;
+  box-shadow: 0 0 0 3px rgba(33, 158, 188, 0.2);
+}
+
+.card button {
+  padding: 12px;
+  background-color: #219ebc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #17677a;
+}
+
+.card p {
+  text-align: center;
+  margin-top: 16px;
+  color: #555;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

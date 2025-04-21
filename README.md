@@ -15,7 +15,7 @@
 
 | Layer        | Tech Used         |
 |--------------|------------------|
-| Frontend     | React + TailwindCSS |
+| Frontend     | React + CSS |
 | Backend      | Rust + Actix Web |
 | Auth         | JWT + Middleware |
 | Cross-Platform | Tauri (Linux & Android support) |
@@ -60,7 +60,7 @@ Brico isn't just a calculator. It's a **full construction platform** in developm
 
 | Version | Changes |
 |---------|---------|
-| 0.1     | Initial calculator UI — Windows-only, no backend |
+| 0.1     | Initial calculator UI — Windows-only, no backend |  likn old repo  https://www.mediafire.com/folder/g6q65eczqn73b/Brico
 | 0.2     | Rewritten from scratch on Linux, backend + auth + mobile-ready |
 
 ---

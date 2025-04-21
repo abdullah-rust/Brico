@@ -60,8 +60,15 @@ Brico isn't just a calculator. It's a **full construction platform** in developm
 
 | Version | Changes |
 |---------|---------|
-| 0.1     | Initial calculator UI — Windows-only, no backend |  likn old repo  https://www.mediafire.com/folder/g6q65eczqn73b/Brico
+| 0.1     | Initial calculator UI — Windows-only, no backend | 
 | 0.2     | Rewritten from scratch on Linux, backend + auth + mobile-ready |
+
+---
+
+## 🖇️ Old Version
+
+- [Download the old Brico version (Windows-only)](https://www.mediafire.com/folder/g6q65eczqn73b/Brico)
+- [Download the old Brico APK](https://www.mediafire.com/file/zmz7zrefh7woruk/Brico.apk/file)
 
 ---
 
@@ -69,4 +76,3 @@ Brico isn't just a calculator. It's a **full construction platform** in developm
 
 This app is still in active development.  
 If you like the vision, drop a ⭐ on the repo and follow the journey.
-

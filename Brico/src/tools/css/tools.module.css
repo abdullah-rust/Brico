@@ -1,0 +1,103 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container > div {
+  background-color: blue;
+  width: calc(100% - 40px); /* 100% width minus 20px left and 20px right */
+  height: 200px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Important for positioning child elements */
+  flex-direction: column;
+  /* box-shadow: 0px 20px 12px rgba(10, 10, 10, 0.1); Shadow added */
+}
+
+.container h1 {
+  font-size: 40px;
+  z-index: 2; /* Ensure h1 is above the overlay */
+  position: relative; /* So that z-index works */
+}
+
+.container h2 {
+  font-size: 40px;
+  z-index: 2; /* Ensure h1 is above the overlay */
+  position: relative; /* So that z-index works */
+}
+
+.card1 {
+  background: url(../../assets/img/brick.jpg);
+  background-size: cover; /* Ensures image covers the div properly */
+  background-position: center; /* Centers the image */
+  position: relative; /* Ensures overlay is positioned correctly */
+  height: 100%; /* Ensures div height is used */
+}
+
+.card1::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: 1; /* Ensures the overlay is below the text */
+  border-radius: 10px;
+}
+
+.card2 {
+  background: url(../../assets/img/slab.jpeg);
+  background-size: cover; /* Ensures image covers the div properly */
+  background-position: center; /* Centers the image */
+  position: relative; /* Ensures overlay is positioned correctly */
+  height: 100%; /* Ensures div height is used */
+}
+
+.card3 {
+  background: url(../../assets/img/plaster.jpg);
+  background-size: cover; /* Ensures image covers the div properly */
+  background-position: center; /* Centers the image */
+  position: relative; /* Ensures overlay is positioned correctly */
+  height: 100%; /* Ensures div height is used */
+}
+
+.card4 {
+  background: url(../../assets/img/marble.jpg);
+  background-size: cover; /* Ensures image covers the div properly */
+  background-position: center; /* Centers the image */
+  position: relative; /* Ensures overlay is positioned correctly */
+  height: 100%; /* Ensures div height is used */
+}
+
+.card5 {
+  background: url(../../assets/img/tile.jpg);
+  background-size: cover; /* Ensures image covers the div properly */
+  background-position: center; /* Centers the image */
+  position: relative; /* Ensures overlay is positioned correctly */
+  height: 100%; /* Ensures div height is used */
+}
+
+.card6 {
+  background: url(../../assets/img/paint.jpg);
+  background-size: cover; /* Ensures image covers the div properly */
+  background-position: center; /* Centers the image */
+  position: relative; /* Ensures overlay is positioned correctly */
+  height: 100%; /* Ensures div height is used */
+}
+
+.card7 {
+  background: url(../../assets/img/block.jpeg);
+  background-size: cover; /* Ensures image covers the div properly */
+  background-position: center; /* Centers the image */
+  position: relative; /* Ensures overlay is positioned correctly */
+  height: 100%; /* Ensures div height is used */
+}

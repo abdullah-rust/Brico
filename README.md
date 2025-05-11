@@ -7,19 +7,19 @@
 ## 🚀 What's New in v0.2
 
 > After weeks of hard work and deep learning, this version of Brico is a complete rewrite — **from scratch** on Zorin OS (Linux).  
-> It includes proper backend authentication, JWT middleware, Actix Web integration, and Tauri-based frontend setup.
+> It includes proper backend authentication, JWT middleware, **Axum** integration, and Tauri-based frontend setup.
 
 ---
 
 ## 📦 Tech Stack
 
-| Layer        | Tech Used         |
-|--------------|------------------|
-| Frontend     | React + CSS |
-| Backend      | Rust + Actix Web |
-| Auth         | JWT + Middleware |
-| Cross-Platform | Tauri (Linux & Android support) |
-| Database     | MongoDB / PostgreSQL (planned) |
+| Layer          | Tech Used                      |
+| -------------- | ------------------------------ |
+| Frontend       | React + CSS                    |
+| Backend        | Rust + Axum                    |
+| Auth           | JWT + Middleware               |
+| Cross-Platform | Tauri (Linux & Android)        |
+| Database       | MongoDB / PostgreSQL (planned) |
 
 ---
 
@@ -58,10 +58,10 @@ Brico isn't just a calculator. It's a **full construction platform** in developm
 
 ## 🧠 Version History
 
-| Version | Changes |
-|---------|---------|
-| 0.1     | Initial calculator UI — Windows-only, no backend | 
-| 0.2     | Rewritten from scratch on Linux, backend + auth + mobile-ready |
+| Version | Changes                                                                          |
+| ------- | -------------------------------------------------------------------------------- |
+| 0.1     | Initial calculator UI — Windows-only, no backend                                 |
+| 0.2     | Rewritten from scratch on Linux, backend rewritten in Axum + auth + mobile-ready |
 
 ---
 

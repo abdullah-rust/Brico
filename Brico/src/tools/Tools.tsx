@@ -22,31 +22,52 @@ export default function Tools() {
         <h1>
           <img src={toolIcon} alt="tool-icon" />
         </h1>
-        <div className={`${styles.card1}`}>
+        <div
+          className={`${styles.card1}`}
+          onClick={() => navigate("/tools/bricks")}
+        >
           <h1>Bricks</h1>
           <h2>Calculation</h2>
         </div>
-        <div className={`${styles.card1} ${styles.card2}`}>
+        <div
+          className={`${styles.card1} ${styles.card2}`}
+          onClick={() => navigate("/tools/slab")}
+        >
           <h1>Slab</h1>
           <h2>Calculation</h2>
         </div>{" "}
-        <div className={`${styles.card1} ${styles.card3}`}>
+        <div
+          className={`${styles.card1} ${styles.card3}`}
+          onClick={() => navigate("/tools/plaster")}
+        >
           <h1>cement Plaster</h1>
           <h2>Calculation</h2>
         </div>{" "}
-        <div className={`${styles.card1} ${styles.card4}`}>
+        <div
+          className={`${styles.card1} ${styles.card4}`}
+          onClick={() => navigate("/tools/marble")}
+        >
           <h1>Marble</h1>
           <h2>Calculation</h2>
         </div>{" "}
-        <div className={`${styles.card1} ${styles.card5}`}>
+        <div
+          className={`${styles.card1} ${styles.card5}`}
+          onClick={() => navigate("/tools/tile")}
+        >
           <h1>Tile</h1>
           <h2>Calculation</h2>
         </div>
-        <div className={`${styles.card1} ${styles.card6}`}>
+        <div
+          className={`${styles.card1} ${styles.card6}`}
+          onClick={() => navigate("/tools/paint")}
+        >
           <h1>Paint</h1>
           <h2>Calculation</h2>
         </div>
-        <div className={`${styles.card1} ${styles.card7}`}>
+        <div
+          className={`${styles.card1} ${styles.card7}`}
+          onClick={() => navigate("/tools/block")}
+        >
           <h1>Concrete Block</h1>
           <h2>Calculation</h2>
         </div>

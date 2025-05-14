@@ -11,8 +11,15 @@
 }
 
 .icon {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   position: absolute;
   left: 15px;
+}
+
+.op_icon {
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  right: 20px;
 }

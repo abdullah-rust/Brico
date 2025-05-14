@@ -1,0 +1,101 @@
+.container {
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.option {
+  position: absolute;
+  width: 300px;
+  height: 600px;
+  background-color: rgb(44, 55, 73);
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 100px;
+  z-index: 2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.cross_btn_in_option {
+  border: none;
+  text-decoration: none;
+  background-color: rgb(44, 55, 73);
+  font-size: 30px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.option input {
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+.option img {
+  width: 90px;
+  height: 90px;
+}
+.container_shadow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.658);
+  z-index: 2;
+}
+
+.option_btn {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 15px;
+}
+
+.option .set_btn {
+  font-size: 30px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(137, 223, 0);
+}
+
+/* inner body  */
+
+.inner_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inner_container input {
+  font-size: 20px;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.inner_container img {
+  width: 30px;
+  height: 30px;
+}
+.inner_container button {
+  font-size: 40px;
+  border: none;
+  border-radius: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: rgb(137, 223, 0);
+}

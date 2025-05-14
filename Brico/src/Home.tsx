@@ -30,7 +30,7 @@ export default function Home() {
           <h1>House Plan</h1>
         </div>
         <div className={`${styles.card1} ${styles.card3}`}>
-          <h1>3D Model</h1>
+          <h1>3D Models</h1>
         </div>
 
         <br />

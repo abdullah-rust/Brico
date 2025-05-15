@@ -3,8 +3,10 @@ import { motion } from "motion/react";
 import styles from "./home.module.css";
 import homeIcon from "./assets/home-img/home-icon.png";
 import { useNavigate } from "react-router-dom";
+
 export default function Home() {
   const navigate = useNavigate();
+
   return (
     <div>
       <Header />

@@ -2,8 +2,8 @@ import styles from "./css/header.module.css";
 import manuIcone from "../assets/manu.png";
 import { useNavigate, useLocation } from "react-router-dom";
 import opIcon from "../assets/icons/option.png";
-import Joyride from "react-joyride";
-import { useState } from "react";
+// import Joyride from "react-joyride";
+// import { useState } from "react";
 
 interface Props {
   path?: string;
@@ -13,7 +13,7 @@ interface Props {
 export default function Header({ path, onOptionClick }: Props) {
   const navigate = useNavigate();
   const location = useLocation();
-  const [run, setRun] = useState(true);
+  // const [run, setRun] = useState(true);
   const steps = [
     {
       target: "#icon", // class ya ID jahan tooltip dikhana hai
@@ -23,7 +23,7 @@ export default function Header({ path, onOptionClick }: Props) {
   ];
   return (
     <header className={styles.header}>
-      <Joyride
+      {/* <Joyride
         steps={steps}
         // run={run}
         // continuous={true}
@@ -34,20 +34,8 @@ export default function Header({ path, onOptionClick }: Props) {
             zIndex: 10000,
           },
         }}
-      />
-      <img
-        src={manuIcone}
-        alt="manuicon"
-        className={styles.icon}
-        id="icon"
-        onClick={() => {
-          if (location.pathname != "/tools") {
-            navigate("/tools");
-          } else if (location.pathname == "/tools") {
-            navigate("/");
-          }
-        }}
-      />
+      /> */}
+      <img src={manuIcone} alt="manuicon" className={styles.icon} id="icon" />
       <h1>Brico</h1>
       {location.pathname == path ? (
         <img

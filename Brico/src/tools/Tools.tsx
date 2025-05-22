@@ -64,13 +64,13 @@ export default function Tools() {
           <h1>Paint</h1>
           <h2>Calculation</h2>
         </div>
-        <div
+        {/* <div
           className={`${styles.card1} ${styles.card7}`}
           onClick={() => navigate("/tools/block")}
         >
           <h1>Concrete Block</h1>
           <h2>Calculation</h2>
-        </div>
+        </div> */}
         <br />
         <br />
         <br />

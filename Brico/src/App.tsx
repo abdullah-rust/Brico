@@ -9,7 +9,7 @@ import Plaster from "./tools/tools/Plaster";
 import Marble from "./tools/tools/Marble";
 import Tile from "./tools/tools/Tile";
 import Paint from "./tools/tools/Paint";
-import Block from "./tools/tools/Block";
+
 function App() {
   const location = useLocation();
   return (
@@ -23,7 +23,6 @@ function App() {
         <Route path="/tools/marble" element={<Marble />} />
         <Route path="/tools/tile" element={<Tile />} />
         <Route path="/tools/paint" element={<Paint />} />
-        <Route path="/tools/block" element={<Block />} />
       </Routes>
     </AnimatePresence>
   );

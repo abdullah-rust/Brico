@@ -99,3 +99,10 @@
   padding-right: 30px;
   background-color: rgb(137, 223, 0);
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

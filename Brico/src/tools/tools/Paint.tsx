@@ -13,7 +13,8 @@ export default function Paint() {
   const [paintLiters, setPaintLiters] = useState("0");
   const [paintGallons, setPaintGallons] = useState("0");
 
-  const calculate = () => {
+  const calculate = (e:any) => {
+    e.preventDefault();
     const wallAreaFt = length * height * walls;
     const paintLtr = (wallAreaFt * coats) / coverage;
     const paintGal = paintLtr / 3.785;
